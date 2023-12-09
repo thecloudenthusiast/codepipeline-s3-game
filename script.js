@@ -16,6 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { name: 'card4', img: 'images/rollsafe.png' },
         { name: 'card5', img: 'images/success.png' },
         { name: 'card5', img: 'images/success.png' },
+        { name: 'card6', img: 'images/akinpawpaw.jpg' },
+        { name: 'card6', img: 'images/akinpawpaw.jpg' },
         // ...add more pairs as needed
     ];
 
@@ -69,7 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
         cardsChosenId = [];
 
         if (cardsWon.length === cardArray.length / 2) {
-            alert('Congratulations! You found them all!');
+            alert('Congratulations Pumpkin! You found them all!');
         }
     }
 
